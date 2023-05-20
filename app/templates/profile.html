@@ -1,0 +1,32 @@
+<!-- Profile.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="content">
+    <h2>Hello, {{ name }}!</h2>
+    <table>
+        <tr>
+            <th>Setting</th>
+            <th>Value</th>
+            <th></th>
+        </tr>
+        {% for setting in settings %}
+        <tr>
+            <td>{{ setting.name }}</td>
+            <td>
+                <span class="setting-value">{{ setting.value }}</span>
+                <input class="setting-input" type="text" style="display: none;">
+            </td>
+            <td>
+                <button class="edit-button">Edit</button>
+                <button class="save-button" style="display: none;">Save</button>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/settings.js') }}"></script>
+{% endblock %}
