@@ -1,0 +1,9 @@
+# Reddit API credentials
+REDDIT_CLIENT_ID = ""
+REDDIT_CLIENT_SECRET = ""
+REDDIT_USER_AGENT = ""
+REDDIT_USERNAME = ""
+REDDIT_PASSWORD = ""
+
+# OpenAI API credentials
+OPENAI_API_KEY = ""
