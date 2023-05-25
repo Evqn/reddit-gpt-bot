@@ -26,7 +26,7 @@ class OpenAIBot:
             request += f" in a {tone} tone"
         
         
-        task = f"{request} in less than {sentence_limit} sentences: \nSubreddit: {subreddit} \nTitle: {post_title}\nContent: {post_content}\n\nSummary:"
+        task = f"{request} in less than {sentence_limit} sentences: \nSubreddit: {subreddit} \nTitle: {post_title}\nContent: {post_content}"
 
 
         # If context is provided, add it to the prompt

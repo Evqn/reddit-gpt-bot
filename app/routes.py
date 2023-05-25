@@ -19,7 +19,7 @@ def profile():
         {'name': 'Reddit User', 'value': current_user.reddit_user},
         {'name': 'Max Sentence', 'value': current_user.max_sentence},
         {'name': 'Tone', 'value': current_user.tone},
-        {'name': 'Additional', 'value': current_user.additional},
+        {'name': 'Custom Prompt', 'value': current_user.additional},
     ]
     return render_template('profile.html', name=current_user.name, settings=settings)
 
