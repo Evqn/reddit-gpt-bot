@@ -36,7 +36,7 @@ def save_setting():
         current_user.max_sentence = setting_value
     elif setting_name == 'Tone':
         current_user.tone = setting_value
-    elif setting_name == 'Additional':
+    elif setting_name == 'Custom Prompt':
         current_user.additional = setting_value
 
     db.session.commit()

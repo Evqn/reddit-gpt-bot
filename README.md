@@ -26,13 +26,18 @@ The Reddit GPT Bot project allows you to interact with the bot and customize you
 
 1. Set up your personal bot settings:
 - Access the webserver provided by the project.
+![Home](images/home.png)
 - Register an account and log in.
 - Navigate to the profile settings page and enter your Reddit username, preferred number of sentences, tone, and any custom prompt.
+![Profile](images/profile.png)
 
 2. Interacting with the bot on Reddit:
+- Choose a post where you need a explanation/summary
+![Question](images/question.png)
 - To tag the bot in a Reddit post, use the username "u/RedditGPTBot".
 - After tagging, you can include a custom prompt in your comment to guide the bot's response.
 - The bot will respond based on your personalized settings and provide a summary or answer related to the post.
+![Answer](images/answer.png)
 
 ## Features
 
